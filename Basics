@@ -1,0 +1,130 @@
+START PROJECT
+
+To Start a Project
+Type the command in the terminal
+scrapy startproject nameoftheproject
+
+CREATE SPIDER
+
+To create spider
+scrapy genspider sidername urlToBeScraped
+
+TO OPEN THE SCRAPYSHELL
+scrapy shell
+
+BASIC COMMANDS IN SHELL
+
+[s] Available Scrapy objects:
+[s]   scrapy     scrapy module (contains scrapy.Request, scrapy.Selector, etc)
+[s]   crawler    <scrapy.crawler.Crawler object at 0x050C2CA0>
+[s]   item       {}
+[s]   settings   <scrapy.settings.Settings object at 0x050C2C28>
+[s] Useful shortcuts:
+[s]   fetch(url[, redirect=True]) Fetch URL and update local objects (by default, redirects are followed)
+[s]   fetch(req)                  Fetch a scrapy.Request and update local objects
+[s]   shelp()           Shell help (print this help)
+[s]   view(response)    View response in a browser
+
+FETCH
+It can be used in two ways
+1.By Giving the url directly
+    fetch('url')
+2.By Giving the request object of scrapy by creating it
+    r=scrapy.request('url')
+    fetch(r)
+
+
+TO GET THE HTML MARKUP OF THE REQUESTED PAGE
+    response.body
+
+TO VIEW THE PAGE IN BROWSER
+    view(response)
+    # this creates a temporary file in the app data directry
+
+TO GET THE TITLE
+    Go the browser and diable the javascript
+    inspect the page then press ctrl+ shift+ p
+    type javascrict and disable it
+
+    Select the title in inspect
+    press ctrl+f to find the element
+    check if the tag matches in element
+    copy the xpath typed
+
+    {if tag name is h1 type //h1 for the x path in element}
+
+    IN the scrappy shell type
+    response.xpath(xpathcopied)
+
+    to get the text in it
+        title=response.xpath('xpath/text()')
+        title.get()
+
+
+SAME USING THE CSS SELECTOR
+    response.css('tagname')
+
+    TO GET ONLY THE TEXT
+    response.css('tagname::text')
+
+TO ACCESS THE TAGS INSIDE THE TAGS
+    in xpath method //maintag/child tag
+
+    in css method 'maintag childtag'
+
+#using selecotor in scrapy
+    countries=Selector(text=response.body).xpath('//ul/li/a/text()').getall()
+
+CODE WHAT IS NEEDED IN THE def Parse   IN SPIDERNAME.py
+
+TO MAKE THE SPIDER CRAWL
+    scrapy crawl countries
+    command in terminal
+
+TO EXPORT THE DATA AFTER CRAWLING
+    use the command
+    scrapy crawl spidername -o filename.extension(json,csv,xml)
+
+SPOOFING THE USER AGENT
+    To know the user agent of the browser
+        inspect
+        go to the networks and click ctrl+r
+        open the first one
+        to get the user agent of the browser
+    to change it in scrapy
+        uncomment the user agent and copy the user gent of browser to it
+        this is not a good method
+    method 2
+        to use the  DEAFAULT HEADERS in the settings.py
+        clear everything and put
+        'User-Agent':copied from browser
+    method 3
+        changing the start urls in spider file
+        remove the start_urls
+TO GET THE AVAILABLE TEMPLATES
+    use the command scrapy genspider -l
+
+TO MAKE A  SPIDER with different template
+    scrapy genspider -t template spidername url
+
+
+
+THE RULE IN THE CRAWL SPIDER
+    Rule property
+    It contains atleast one rule object
+    it says the crawl spider  what are the links to follow
+    LinkExtractor-first argument
+        used to specify the link that you want to extract or not
+        allow
+        deny
+        restrict_xpaths=("xpaths without @href (it automatically dectects)")
+        restrict_css
+
+    callback
+    follow-it says wheather to send request to the link or not
+
+THE RULE OBJECT
+    Here the rule order is important
+    once the first rule requests the specified url/urls of that form
+    it goes to the next rule
+    In the next rule again the rules variable is called untill no such specified rule is found

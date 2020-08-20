@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbd8d1b-bf64-4067-ad9a-507fcc3594c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/BooksToScrape/spiders/books.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BooksToScrape/Selenium/Basics.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BooksToScrape/Selenium/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imdb/Imdb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Imdb/Imdb/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imdb/Imdb/spiders/best_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Imdb/Imdb/spiders/best_movies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +34,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Bharath\PyCharmProjects\Scrapy" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.Basics">
     <configuration name="Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -133,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597772301416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Books to Scrape">
+      <created>1597944781867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597944781867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -142,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Scrapy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scrapy" />
+    <MESSAGE value="Books to Scrape" />
+    <option name="LAST_COMMIT_MESSAGE" value="Books to Scrape" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -154,10 +156,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1597246231721" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1597772297251">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1597944778258">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597772297251" />
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597944778258" />
     <state x="550" y="113" key="EnvironmentVariablesDialog" timestamp="1597397320648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -170,22 +172,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1597772100491" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1597944375916">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1597944876523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597944375916" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1597944375915">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1597944876523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597944375915" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1597944375915">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1597944876523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597944375915" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1597944375916">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1597944876523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597944375916" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1597940190859">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

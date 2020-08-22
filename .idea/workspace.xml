@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbd8d1b-bf64-4067-ad9a-507fcc3594c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/Selenium/Basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BooksToScrape/Selenium/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/spiders/coin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/spiders/silks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/spiders/slicks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/after_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/scrapy-selenium.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597944781867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Books to Scrape">
+      <created>1597945138950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597945138950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Selenuim Basics">
+      <created>1597945171468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597945171468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -144,7 +178,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Scrapy" />
     <MESSAGE value="Books to Scrape" />
-    <option name="LAST_COMMIT_MESSAGE" value="Books to Scrape" />
+    <MESSAGE value="Selenuim Basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenuim Basics" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -152,14 +187,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597397649287" />
-    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597246231721">
+    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598089767321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1597246231721" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1597944778258">
+    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598089767321" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1597945170296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597944778258" />
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597945170296" />
     <state x="550" y="113" key="EnvironmentVariablesDialog" timestamp="1597397320648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,14 +223,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1597940190859">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1598089381346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597940190859" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597772386343">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598089381346" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597945197390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597772386343" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597945197390" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

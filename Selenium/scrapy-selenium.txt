@@ -1,0 +1,28 @@
+https://github.com/clemfromspace/scrapy-selenium
+
+Git hub link for configuration of scrapy-selenium
+
+ADD TO SETINGS FILE
+
+    SELENIUM_DRIVER_NAME = 'chrome'
+    SELENIUM_DRIVER_EXECUTABLE_PATH ="C:\Webdrivers\chromedriver.exe"
+    SELENIUM_DRIVER_ARGUMENTS=['--headless']
+
+    REPLACE THE DOWNLOADER MIDDLE WARES WITH
+
+        DOWNLOADER_MIDDLEWARES = {
+        'scrapy_selenium.SeleniumMiddleware': 800
+        }
+
+IN SPIDER FILE
+    Remove start urls and allowed domains
+
+    from scrapy-selenuim import SeleniumRequests
+
+    add start requests and yeild using selenuim requests
+
+            def start_requests(self):
+                yield SeleniumRequest(url='https://duckduckgo.com',screenshot=True,callback=self.parse)
+
+
+    Take the driver using the response.requests.meta['driver']

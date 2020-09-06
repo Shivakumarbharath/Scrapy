@@ -2,28 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbd8d1b-bf64-4067-ad9a-507fcc3594c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/LivecoinSelenuim/spiders/coin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/LivecoinSelenuim/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/spiders/silks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/spiders/slicks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/after_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/scrapy-selenium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/Bharath.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess/.idea/Chess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Avoid_getting_Banned.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Basics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/spiders/books.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/spiders/quotes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scraping API's/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/spiders/laptops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/amzn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/getprod2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/spiders/sherwani.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/spiders/solo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/k.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/CheckDb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/computers.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +62,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,7 +80,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -60,7 +91,7 @@
       <recent name="E:\Bharath\PyCharmProjects\Scrapy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Basics">
+  <component name="RunManager" selected="Python.login">
     <configuration name="Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +113,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="CheckDb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium/Silkdeals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/Silkdeals/CheckDb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="countries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +147,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/worldometer/worldometer/spiders/countries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/spiders/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,6 +199,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.CheckDb" />
         <item itemvalue="Python.Basics" />
         <item itemvalue="Python.countries" />
       </list>
@@ -168,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597945171468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selenium&#10;Scraping the Javascript websites">
+      <created>1598106930547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598106930547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -179,7 +261,8 @@
     <MESSAGE value="Scrapy" />
     <MESSAGE value="Books to Scrape" />
     <MESSAGE value="Selenuim Basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenuim Basics" />
+    <MESSAGE value="Selenium&#10;Scraping the Javascript websites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium&#10;Scraping the Javascript websites" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -187,50 +270,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597397649287" />
-    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598089767321">
+    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598623488337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598089767321" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1597945170296">
+    <state x="452" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598623488337" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598262298747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597945170296" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598262298747" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1598106926380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598106926380" />
+    <state x="213" y="18" key="DBNavigator.ProjectSettingsDialog" timestamp="1598178227563">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="DBNavigator.ProjectSettingsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598178227563" />
     <state x="550" y="113" key="EnvironmentVariablesDialog" timestamp="1597397320648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="550" y="113" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597397320648" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1597772198467">
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1598175841913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597772198467" />
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598175841913" />
     <state x="561" y="261" key="Github.ShareDialog" timestamp="1597772100491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1597772100491" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1597944876523">
+    <state width="1345" height="164" key="GridCell.Tab.0.bottom" timestamp="1598296374410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1597944876523">
+    <state width="1345" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598296374410" />
+    <state width="1345" height="164" key="GridCell.Tab.0.center" timestamp="1598296374410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1597944876523">
+    <state width="1345" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598296374410" />
+    <state width="1345" height="164" key="GridCell.Tab.0.left" timestamp="1598296374410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1597944876523">
+    <state width="1345" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598296374410" />
+    <state width="1345" height="164" key="GridCell.Tab.0.right" timestamp="1598296374410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597944876523" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1598089381346">
+    <state width="1345" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598296374410" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1598300583179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598089381346" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597945197390">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598300583179" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598106953682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597945197390" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598106953682" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598623801854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598623801854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

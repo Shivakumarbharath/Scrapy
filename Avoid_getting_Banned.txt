@@ -1,0 +1,90 @@
+ERROR 429
+    RATE LIMIT REQUESTS
+        if the rate limit is high then it get banned
+        Reduce it in the settings
+        CONCURRENT_REQUESTS
+
+CHANGE THE USER AGENT
+    WHO REQUESTS WHAT?
+        change the request headers
+        commonly
+
+        headers={'User-Agent':self.user_agent,
+                        "Accept-Encoding": "gzip, deflate",
+                           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                           "DNT": "1",
+                           "Connection": "close",
+                           "Upgrade-Insecure-Requests": "1"
+                           }
+
+
+DETECTION THROUGH HONEYPOTS
+    <a href =# ref='nofollow' style="displaynone">Trap</a>
+    used to make invisible to users
+
+HOW CAN WE PREVENT GETTING BLACKLISTED BY THE WEBSITES...
+    1.DO NOT HIT THE WEBSITES TOO HARD.
+        ->change the CONCURENT_REQUESTS
+        ->add delay between each requests
+          by changing the
+          DOWNLOAD_DELAY=0
+          in settings.py
+          but in reality what hapens is DOWNLOAD_DELAY=DOWNLOAD_DELAY*RANDOMISE_NUMBER[0.5-1.5
+          TO CHANGE THIS
+          RANDOMIZE_DOWNLOAD_DELAY=FASLE(to stop randomize)
+
+   2. AUTO THROTTLE EXTENSTION
+        Change in settings.py file(uncomment it and use )
+        AUTOTHROTTLE_ENABLED=TRUE
+        AUTOTHROTTLE_DELAY=5
+
+   3.ENABLING HTTP CACHING
+    store the requests in memory chache
+    if we run spider scrapy checks the cache
+    if its alreasy available it requests localy
+    ->use it only in devlopment stage
+
+        uncomment in settings.py
+        HTTPCACHE_ENABLED=TRUE
+
+FOR PERMANENT BLOCK
+    1.REBOOT THE ROUTER
+    2.USE PROXY SERVICE(for scrapy-crawlera(paid service))
+
+USING DIFFERENT USER-AGENT FOR EVERY REQUEST
+    In middlewares.py
+        from scrapy.downloadmiddleware.useragent import UserAgentMiddleware
+        import random,logging
+
+        #add code
+
+        class UserAgentRotaterMiddleware(UserAgentMiddleware):
+            user_agent_list=[list of all agents]#you can scrape or use given
+
+            def __init__(self,user_agent=''):
+                self.user_agent=user_agent
+
+            def process_request(self,request,spider):
+                try:
+                    self.user_agent=random.choice(user_agent_list)
+                    request.headers.default['User-Agent']=self.user_agent
+                except IndexError:
+                    logging.error('Could not fetch user agent')
+
+    In settings.py file
+        before
+        #DOWNLOADER_MIDDLEWARES = {
+        #    'AmazonBasic.middlewares.AmazonbasicDownloaderMiddleware': 543,
+        #}
+        in downloader middlewares
+        add key
+        'scrapy.downloadermiddlewares.useragen.UserAgentMiddleware':None
+
+        now replace the democrawlmiddleware in that dictionry by custom middleware
+
+        after
+        DOWNLOADER_MIDDLEWARES = {
+            'scrapy.downloadermiddlewares.useragen.UserAgentMiddleware':None,
+            'AmazonBasic.middlewares.UserAgentRotaterMiddleware': 543,
+        }
+        (to check change the priorty to 400(lower value==higher priority))

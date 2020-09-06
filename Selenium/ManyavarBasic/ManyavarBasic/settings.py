@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Silkdeals project
+# Scrapy settings for ManyavarBasic project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,13 +9,13 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Silkdeals'
+BOT_NAME = 'ManyavarBasic'
 
-SPIDER_MODULES = ['Silkdeals.spiders']
-NEWSPIDER_MODULE = 'Silkdeals.spiders'
+SPIDER_MODULES = ['ManyavarBasic.spiders']
+NEWSPIDER_MODULE = 'ManyavarBasic.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'Silkdeals (+http://www.yourdomain.com)'
+# USER_AGENT = 'ManyavarBasic (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -46,7 +46,7 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'Silkdeals.middlewares.SilkdealsSpiderMiddleware': 543,
+#    'ManyavarBasic.middlewares.ManyavarbasicSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
@@ -63,9 +63,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    'Silkdeals.pipelines.SilkdealsPipeline': 300,
-}
+# ITEM_PIPELINES = {
+#    'ManyavarBasic.pipelines.ManyavarbasicPipeline': 300,
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -87,10 +87,6 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-
-# scrapy-selenium configuration
-
-from shutil import which
 
 SELENIUM_DRIVER_NAME = 'chrome'
 SELENIUM_DRIVER_EXECUTABLE_PATH = "C:\Webdrivers\chromedriver.exe"

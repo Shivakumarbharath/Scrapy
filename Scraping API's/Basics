@@ -1,0 +1,21 @@
+
+Learining Example-http://quotes.toscrape.com/scroll
+
+TO KNOW THE APIS IN THE DEVLOPMENT TOOLS(INSPECT)
+    Go to networks and apply the XHR filter and refresh
+
+    TO GET THE HEADERS
+        click the api to get the headers
+        Here the request url is completey different from the main reques url
+
+
+THE PREVIEW TAB
+    it consists of the json object
+    we have to convert it to python dict object
+
+IN THE SPIDER
+    Use the request url in the headers of the networks tab
+
+    CONVERT THE JSON DATA TO DICT DATA
+    import json
+    json.loads(response.body)

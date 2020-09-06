@@ -27,7 +27,7 @@ class LaptopsSpider(scrapy.Spider):
             driver = response.request.meta['driver']
             driver.save_screenshot('amzn.png')
             search = driver.find_element_by_xpath('//*[@id="twotabsearchtextbox"]')
-            search.send_keys('HP laptops')
+            search.send_keys(' Asus laptops')
 
             search.send_keys(Keys.ENTER)
             driver.save_screenshot('check.png')
@@ -35,7 +35,11 @@ class LaptopsSpider(scrapy.Spider):
             resp = Selector(text=driver.page_source)
         except KeyError:
             resp = Selector(text=response.body)
-
+        # driver = response.request.meta['driver']
+        # resp=response
+        # driver.save_screenshot('before_reload.png')
+        # driver.refresh()
+        # driver.save_screenshot('reload.png')
         prods = resp.xpath('''(//span[@data-cel-widget="MAIN-SEARCH_RESULTS"])/div[@class
         ="s-include-content-margin s-border-bottom s-latency-cf-section"]''')
         print(len(prods), 'This is products elements')
@@ -53,35 +57,92 @@ class LaptopsSpider(scrapy.Spider):
                     './/div/div[2]/div[2]/div/div[2]/div/div/div/div[@class="a-row a-size-base a-color-base"]/div/a/span[1]/span/text()').get()
                 mrp = e.xpath(
                     './/div/div[2]/div[2]/div/div[2]/div/div/div/div[@class="a-row a-size-base a-color-base"]/div/a/span[2]/span/text()').get()
-                yield {
-                    'Name': name,
-                    'Url': url,
-                    'Offer Price': price,
-                    'MRP': mrp,
-
-                }
-                # yield scrapy.Request(url=url,callback=self.parse_item,headers={'User-Agent':self.user_agent,
-                #                                                                    "Accept-Encoding": "gzip, deflate",
-                #                                                                            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                #                                                                            "DNT": "1",
-                #                                                                            "Connection": "close",
-                #                                                                            "Upgrade-Insecure-Requests": "1"
-                #                                                                            },dont_filter=False)
+                # yield {
+                #     'Name': name,
+                #     'Url': url,
+                #     'Offer Price': price,
+                #     'MRP': mrp,
+                #
+                # }
+                yield scrapy.Request(url=url, callback=self.parse_item, headers={'User-Agent': self.user_agent,
+                                                                                 "Accept-Encoding": "gzip, deflate",
+                                                                                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                                                                 "DNT": "1",
+                                                                                 "Connection": "close",
+                                                                                 "Upgrade-Insecure-Requests": "1"
+                                                                                 }, dont_filter=False)
 
                 next_page = resp.xpath('//li[@class="a-last"]/a/@href').get()
                 print(next_page)
                 if next_page:
                     next_url = 'https://www.amazon.in' + next_page
                     print(next_url)
-                    yield scrapy.Request(url=next_url[:], callback=self.parse, headers={'User-Agent': self.user_agent,
-                                                                                        "Accept-Encoding": "gzip, deflate",
-                                                                                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                                                                                        "DNT": "1",
-                                                                                        "Connection": "close",
-                                                                                        "Upgrade-Insecure-Requests": "1"
-                                                                                        }, dont_filter=False)
+                    yield SeleniumRequest(url=next_url[:], callback=self.parse_page,
+                                          headers={'User-Agent': self.user_agent,
+                                                   "Accept-Encoding": "gzip, deflate",
+                                                   "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                                   "DNT": "1",
+                                                   "Connection": "close",
+                                                   "Upgrade-Insecure-Requests": "1"
+                                                   }, dont_filter=False)
         else:
+
             print('Amazon did not allow pagination', response.url)  # [:-1]+str(int(response.url[-1])+1))
+
+            # driver.save_screenshot('reload2.png')
+            yield SeleniumRequest(url='https://www.amazon.in/',
+                                  callback=self.parse, headers={'User-Agent': self.user_agent,
+                                                                "Accept-Encoding": "gzip, deflate",
+                                                                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                                                "DNT": "1",
+                                                                "Connection": "close",
+                                                                "Upgrade-Insecure-Requests": "1"
+                                                                })
+
+    def parse_page(self, response):
+        driver = response.request.meta['driver']
+        resp = Selector(text=driver.page_source)
+        prods = resp.xpath('''(//span[@data-cel-widget="MAIN-SEARCH_RESULTS"])/div[@class
+                ="s-include-content-margin s-border-bottom s-latency-cf-section"]''')
+        print(len(prods), 'This is products elements')
+
+        if prods:
+            print('Products Found')
+        else:
+            driver.refresh()
+            print(len(prods), 'This is products elements')
+        while not prods:
+            driver.refresh()
+            prods = resp.xpath('''(//span[@data-cel-widget="MAIN-SEARCH_RESULTS"])/div[@class
+                            ="s-include-content-margin s-border-bottom s-latency-cf-section"]''')
+            print(len(prods), 'This is products elements')
+
+        for e in prods:
+
+            name = e.xpath('.//div/div[2]/div[2]/div/div/div/div/div/h2/a/span/text()').get()
+            if e.xpath('.//div/div[2]/div[2]/div/div/div/div/div/h2/a/@href').get():
+                url = 'https://www.amazon.in' + e.xpath('.//div/div[2]/div[2]/div/div/div/div/div/h2/a/@href').get()
+            else:
+                url = None
+            price = e.xpath(
+                './/div/div[2]/div[2]/div/div[2]/div/div/div/div[@class="a-row a-size-base a-color-base"]/div/a/span[1]/span/text()').get()
+            mrp = e.xpath(
+                './/div/div[2]/div[2]/div/div[2]/div/div/div/div[@class="a-row a-size-base a-color-base"]/div/a/span[2]/span/text()').get()
+            # yield {
+            #     'Name': name,
+            #     'Url': url,
+            #     'Offer Price': price,
+            #     'MRP': mrp,
+            #
+            # }
+
+            yield scrapy.Request(url=url, callback=self.parse_item, headers={'User-Agent': self.user_agent,
+                                                                             "Accept-Encoding": "gzip, deflate",
+                                                                             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                                                             "DNT": "1",
+                                                                             "Connection": "close",
+                                                                             "Upgrade-Insecure-Requests": "1"
+                                                                             }, dont_filter=False)
 
     def parse_item(self, response):
 

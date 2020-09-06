@@ -4,54 +4,13 @@
     <list default="true" id="ebbd8d1b-bf64-4067-ad9a-507fcc3594c4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../.idea/Bharath.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Chess/.idea/Chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avoid_getting_Banned.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Basics" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/Ebooks/spiders/books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/Ebooks/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/QuotesTOScrape/spiders/quotes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/QuotesTOScrape/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scraping API's/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/spiders/laptops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/amzn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/getprod2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/spiders/sherwani.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/ManyavarBasic/spiders/solo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/k.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/ManyavarBasic/start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/CheckDb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Silkdeals/computers.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/before_reload.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Python/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/Silkdeals/Silkdeals/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/spiders/laptops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/AmazonBasic/spiders/laptops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/AmazonBasic/amzn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/amzn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/AmazonBasic/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/AmazonBasic/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/AmazonBasic/getprod2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598106930547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selenium&#10;Scraping the Javascript websites">
+      <created>1599386374397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599386374397</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -278,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598262298747" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1598106926380">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1599386363364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598106926380" />
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599386363364" />
     <state x="213" y="18" key="DBNavigator.ProjectSettingsDialog" timestamp="1598178227563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,10 +284,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598300583179" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598106953682">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599386387811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598106953682" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599386387811" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598623801854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
